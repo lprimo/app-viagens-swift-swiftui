@@ -28,6 +28,7 @@ struct ContentView: View {
                     .frame(width: view.size.width)
                 }
             }
+            .navigationBarHidden(true)
         }
         .navigationViewStyle(StackNavigationViewStyle())
         
